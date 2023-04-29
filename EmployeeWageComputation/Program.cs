@@ -10,8 +10,9 @@ namespace EmployeeWageComputation
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Displaying Welcome to Employee Wage Computation Program");
-            Console .ReadKey();
+            //Console.WriteLine("Displaying Welcome to Employee Wage Computation Program");
+            CheckEmp.EmpAtten();
+            Console.ReadKey();
         }
     }
 }
